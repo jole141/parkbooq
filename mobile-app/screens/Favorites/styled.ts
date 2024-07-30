@@ -1,0 +1,12 @@
+import styled, { css } from "styled-components/native";
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
+import { theme } from "../../config/theme.config";
+
+export const Wrapper = styled.View`
+    margin-top: ${hp("10%")}px;
+    padding: ${wp("5%")}px;
+`;
+
